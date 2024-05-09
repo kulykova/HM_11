@@ -1,0 +1,51 @@
+    1  pmd
+    2  ls -l
+    3  git config --global user.name kulykova
+    4  git config --global user.email kulikova.suzanna@gmail.com
+    5  git config --get user.name
+    6  git config --get user.email
+    7  git clone https://github.com/kulykova/HM_11.git
+    8  ls -l
+    9  cd HM_11
+   10  touch text_ignore.txt
+   11  ls -l
+   12  ls -la
+   13  nano .gitignore
+   14  ls -l
+   15  git status
+   16  git add .
+   17  git commot -m "changed gitignore"
+   18  git commit -m "changed gitignore"
+   19  git status
+   20  git push origin main
+   21  touch main_test.txt
+   22  git add .
+   23  git status
+   24  git commit -m "addad new file"
+   25  git status
+   26  git log
+   27  git push
+   28  git status
+   29  git checkout -b develop
+   30  git branch
+   31  touch develop_test.txt
+   32  git add .
+   33  git commit -m "added new file"
+   34  nano develop_test.txt
+   35  git status
+   36  git add .
+   37  git commit -m "changed file"
+   38  git status
+   39  git push
+   40  git push oringin develop
+   41  pmd
+   42  git checkout develop
+   43  git push origin develop
+   44  git checkout main
+   45  git merge develop
+   46  git log
+   47  git merge develop
+   48  git log
+   49  git push origin main
+   50  git log
+   51  history > command_list.csv
